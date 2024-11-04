@@ -1,0 +1,85 @@
+nav{
+    height: 4em;
+    padding-top:0;
+    
+    
+    }
+    #in{
+        width:400px;
+    }
+     
+    #para
+    {
+        font-size:large;
+    }
+    #about,#actions
+    {
+        padding-bottom:300px;
+    }
+    
+    #h12{ background-color: rgb(25, 135, 84);
+    padding-bottom:0;
+    margin-bottom:0;
+    height: 50px;
+    text-align:center;
+    color: white;
+    }
+    
+    
+    
+    footer{
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    
+      .blog1-post {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+    
+      #vid
+      {
+        margin-left:400px;
+        height:800px;
+        width:800px;
+      }
+    
+      #img
+      {
+        height:50px;
+        width:50px;
+      }
+      body
+      {
+      margin-top:0;
+      padding-top:0;
+      font-family:sans-serif;
+      }
+      header{
+        margin-top:0;
+      }
+      .nav-item:hover{
+        background-color: #fff;
+        border-radius: 5px;
+      }
+      .nav-link:hover{
+        color: #1c8f59;
+        font-size: large;
+        font-weight: bolder;
+      }
+      .nav-link{
+        color: #f8f8f8;
+        font-size: large;
+        font: bold;
+      }
+    .navbar-brand{
+        border-radius: 10px;
+    }

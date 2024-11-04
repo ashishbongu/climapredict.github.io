@@ -54,8 +54,8 @@
 </head>
 <body class="d-flex flex-column min-vh-100" > 
   <header class="bg-success text-white">
-      <h2 id="h12" class="text-center my-2"></h2>
-     
+    <h2 id="h12" class="text-center my-2"></h2>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
       <div class="container-fluid">
         <img id="img" class="navbar-brand" style="width: 180px; height: 84px; border-radius: 10px;" src="clima (1).png">
@@ -64,23 +64,23 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about1.html">Goals</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="actions1.html">Take Actions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="resources.html">Tips</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Blog1.html">Blog</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about1.html">Goals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="actions1.html">Take Actions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="resources.html">Tips</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Blog1.html">Blog</a>
+                </li>
+              </ul>
           <div>
             <form class="d-flex" role="search">
               <input id="in" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -97,8 +97,8 @@
       <div class="con1" style=" color: rgb(28, 143, 89);  padding: 7px; height: 65px; width: 70%;margin-left: 250px;">
         <table style="width: 100%;">
             <tr>
-                <td><a  style="text-decoration: none; color: aliceblue; padding: 16px; border-radius: 10px; background-color:rgb(28, 143, 89); font-weight:700; font-size: 28px;" href="home1.html">Temperature</a></td>
-                <td><a  style="text-decoration: none; color:rgb(28, 143, 89); font-weight:700; font-size: 28px;" href="home2.html">CO2 Emissions</a></td>
+                <td><a  style="text-decoration: none; color:rgb(28, 143, 89); font-weight:700; font-size: 28px;" href="home1.html">Temperature</a></td>
+                <td><a  style="text-decoration: none; color: aliceblue; padding: 16px; border-radius: 10px; background-color:rgb(28, 143, 89); font-weight:700; font-size: 28px;" href="home2.html">CO2 Emissions</a></td>
                 <td><a  style="text-decoration: none; color:rgb(28, 143, 89); font-weight:700; font-size: 28px;" href="home3.html">Polar Ice Cap</a></td>
                 <td><a  style="text-decoration: none; color:rgb(28, 143, 89); font-weight:700; font-size: 28px;" href="home4.html">Glaciers</a></td>
                 <td><a  style="text-decoration: none; color:rgb(28, 143, 89); font-weight:700; font-size: 28px;" href="home5.html">Sea Levels</a></td>
@@ -107,14 +107,13 @@
         </table>
     </div>
     <div class="wel" style="display: flex; justify-content: center; ">
-      <h2  style="margin-top: 40px; border-radius: 10px;  font-weight: bold; ">GLOBAL TEMPERATURE PREDICTION</h2>
+      <h2  style="margin-top: 40px; border-radius: 10px;  font-weight: bold; ">GLOBAL C02 EMISSIONS PREDICTION</h2>
     </div>
     <br>
 <div class="con2" style="text-align: center;height: 1000px;">
-
-  <iframe title='World average temperature (°C)' src='https://www.theworldcounts.com/embeds/counters/21?background_color=black&color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=28' style="height: 200px;"></iframe>
-  <br>
-  <img style="height: 600px; width: 50%; " src="WhatsApp Image 2024-11-04 at 00.14.59_b77d1bea.jpg" alt="Sample Image">
+    <iframe title='Tonnes of CO2 emitted into the atmosphere' src='https://www.theworldcounts.com/embeds/counters/23?background_color=black&color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=28' style='border: none' height='200px' width='300'></iframe>
+    <br>
+  <img style="height: 600px; width: 50%; " src="WhatsApp Image 2024-11-04 at 00.15.12_45f0e8d5.jpg" alt="Sample Image">
   <br>
   <input type="number" id="yearInput" placeholder="Enter year">
   <button onclick="showPrediction()">Show Prediction</button>
@@ -128,30 +127,53 @@
   <script src="js/script.js"></script>
   <script>
     const predictions = {
-        2024: 1.5704,
-        2025: 1.5921,
-        2026: 1.6137,
-        2027: 1.6354,
-        2028: 1.6571,
-        2029: 1.6787,
-        2030: 1.7004,
-        2031: 1.7221,
-        2032: 1.7437,
-        2033: 1.7654,
-        2034: 1.7870,
-        2035: 1.8087,
-        2036: 1.8304,
-        2037: 1.8520,
-        2038: 1.8737,
-        2039: 1.8953,
-        2040: 1.9170,
-        2041: 1.9387,
-        2042: 1.9603,
-        2043: 1.9820,
-        2044: 2.0036,
-        2045: 2.0253,
-        2046: 2.0470,
-        2047: 2.0686
+        2024: 412.59,
+
+        2025: 414.22,   
+
+        2026: 415.85,
+
+        2027: 417.48,
+
+        2028: 419.11,
+
+        2029: 420.74,
+
+        2030: 422.37,
+
+        2031: 424.00,
+
+        2032: 425.63,
+
+        2033: 427.26,
+
+        2034: 428.89,
+
+        2035: 430.52,
+
+        2036: 432.14,
+
+        2037: 433.77,
+
+        2038: 435.40,
+
+        2039: 437.03,
+
+        2040: 438.66,
+
+        2041: 440.29,
+
+        2042: 441.92,
+
+        2043: 443.55,
+
+        2044: 445.18,
+
+        2045: 446.81,
+
+        2046: 448.44,
+
+        2047: 450.07
     };
 
     function showPrediction() {
@@ -159,7 +181,7 @@
         const resultDiv = document.getElementById('result');
         if (year >= 2024 && year <= 2047) {
             const prediction = predictions[year];
-            resultDiv.innerText = `Predicted temperature change for ${year}: ${prediction}°C`;
+            resultDiv.innerText = `Predicted CO2 emissions for ${year}: ${prediction} ppm`;
         } else {
             resultDiv.innerText = 'Input is wrong.';
         }
